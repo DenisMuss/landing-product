@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+.body {
+    background-color: black;
+}
+.a {
+text-decoration: none;
+}
+
+.img {
+max-width: 100%;
+}
+
+
+.header {
+    display: flex;
+}
+
+.nav ul {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    gap: 88px;
+    list-style: none; /* Убирает маркеры (если это список) */
+    padding: 0; /* Убирает внутренние отступы */
+    margin: 0; /* Убирает внешние отступы */
+    margin-top: 37px; 
+    margin-left: 689px; 
+}
+
+.nav ul li{
+    color: #fff;
+}
+
+
+.layuot {
+max-width: 1300px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.active {
+    border-bottom: 5px solid #DC7000;
+}
+
+.contact {
+    position: relative;
+    display: inline-block;
+    width: 134.51px; 
+    height: 33.98px; 
+    background-color: orange; 
+    border-radius: 10px; 
+    text-align: center; 
+    line-height: 33.98px; 
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 29px;
+    display: flex;
+    width: 82px;
+    height: 45px;
+    margin-top: 34px; 
+    margin-left: 36px; 
+    color: #fff;
+}
