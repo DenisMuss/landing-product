@@ -3,7 +3,7 @@
 :root {
     --main-color: black;
     --white-color: #ffffff;
-    --orange: #DC7000;
+    --orange-color: #DC7000;
 }
 
 body {
@@ -15,8 +15,8 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 108px;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     color: var(--white-color);
 }
 
@@ -27,37 +27,34 @@ body {
     margin-right: 63px;
 }
 
-.ul {
+.ul-list {
     display: flex;
+    text-align: center; 
+    line-height: 34px; 
     gap: 88px;
     list-style: none;
 }
 
-.ul li a {
+.nav-link a {
     color: var(--white-color);
     text-decoration: none; 
 }
 
-.Home {
-    border-bottom: 4px solid var(--orange);
+#Home {
+    border-bottom: 4px solid var(--orange-color);
 }
 
-.contact {
-    position: relative;
-    display: inline-block;
+#Contact {
+    height: 34px;
     width: 135px; 
-    height: 34px; 
-    background-color: var(--orange); 
+    background-color: var(--orange-color); 
     border-radius: 10px; 
-    text-align: center; 
     line-height: 34px; 
 }
 
 .logo {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 29px;
-    width: 82px; 
-    height: 45px; 
+    font-size: 29px; 
     margin-left: 36px;
 }
