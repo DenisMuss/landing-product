@@ -3,7 +3,8 @@
 :root {
     --main-color: black;
     --white-color: #ffffff;
-    --orange-color: #DC7000;
+    --orange-color: #dc7000;
+    --orange-hover-color: #904b01;
 }
 
 body {
@@ -27,7 +28,7 @@ body {
     margin-right: 63px;
 }
 
-.ul-list {
+.nav-list {
     display: flex;
     text-align: center; 
     line-height: 34px; 
@@ -35,21 +36,30 @@ body {
     list-style: none;
 }
 
-.nav-link a {
+.nav-link {
     color: var(--white-color);
     text-decoration: none; 
+    transition: all 0.5s;
+    padding-bottom: 8px;
 }
 
-#Home {
+.nav-link:hover {
     border-bottom: 4px solid var(--orange-color);
+    transition: all 0.5s;
 }
 
-#Contact {
+.contact-us-link {
     height: 34px;
     width: 135px; 
     background-color: var(--orange-color); 
     border-radius: 10px; 
     line-height: 34px; 
+    padding: 8px;
+}
+
+.contact-us-link:hover {
+    border-bottom: 0;
+    background-color: var(--orange-hover-color);
 }
 
 .logo {
