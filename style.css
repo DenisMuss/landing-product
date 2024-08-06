@@ -219,3 +219,55 @@ body {
     font-weight: 500;
     font-size: 22px; 
 }
+
+.conteiner-info {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+    margin-top: 195px;
+    padding-left: 147px;
+    padding-right: 147px;
+    background: linear-gradient(to bottom, black, #904b0135);
+}
+
+.conteiner-info-center {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px; 
+    margin-bottom: 67px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.info-block {
+    width: 545px;
+    height: 173px;
+    margin-bottom: 46px;
+}
+
+.conteiner-info-name {
+    font-weight: 600;
+    font-size: 30px; 
+}
+
+.conteiner-info-text {
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.point-img {
+    position: absolute;
+    height: 196px;
+    width: 154px;
+    transform: translateX(500%);
+    top: 340px;
+    z-index: 1;
+}
+
+.center-info {
+    z-index: 2;
+    margin-bottom: 157px;
+}
