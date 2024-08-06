@@ -5,6 +5,8 @@
     --white-color: #ffffff;
     --orange-color: #dc7000;
     --orange-hover-color: #904b01;
+    --braun-color: #17130e;
+    --white-transparent: #ffffff11;
 }
 
 body {
@@ -20,7 +22,7 @@ body {
     margin: 0;
     color: var(--white-color);
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav {
@@ -96,6 +98,7 @@ body {
 .composition-blok-buton {
     display:inline-block;
     margin-top: 50px;
+    color: var(--white-color);
     background-color: var(--orange-color);
     padding: 15px 30px; 
     border-radius: 40px; 
@@ -150,4 +153,69 @@ body {
 .styled-image4 {
     margin-bottom: 52%;
     transform: translateX(-250%);
+}
+
+.Followers-text-conteiner {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    margin-top: 228px;
+    margin-left: 147px;
+    margin-right: 147px;
+}
+
+.Followers-text-blokc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Followers-text-title {
+    font-weight: 700;
+    font-size: 31px; 
+}
+
+.Followers-text-buton {
+    font-weight: 500;
+    font-size: 20px; 
+    color: var(--white-color);
+    background-color: var(--braun-color);
+    text-decoration: none; 
+    padding: 15px 30px;
+    border-radius: 10px; 
+}
+
+.Followers-text-buton:hover {
+    border-bottom: 0;
+    background-color: var(--white-transparent);
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    right: 0px;
+
+}
+
+.Followers-imege {
+    border-radius: 20px;
+    height: 277px;
+    width: 257px;
+    transform: translateX(0%);
+}
+
+.Followers-ander-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 45px;
+    gap: 129px;
+}
+
+.Followers-center-text {
+    font-weight: 500;
+    font-size: 22px; 
 }
