@@ -7,6 +7,7 @@
     --orange-hover-color: #904b01;
     --braun-color: #17130e;
     --white-transparent: #ffffff11;
+    --shode-black: #000000a8;
 }
 
 body {
@@ -269,5 +270,55 @@ body {
 
 .center-info {
     z-index: 2;
-    margin-bottom: 157px;
+    margin-bottom: 100px;
+}
+
+.Rectangle-conteiner {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white-color);
+    background-image: url('db4d123c4b390965f684f22d4bf13849 1.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.Rectangle-conteiner-location {
+    background-color: var(--shode-black);
+    z-index: 2;
+}
+
+.Rectangle-conteiner-content-1 {
+    margin-top: 94px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-weight: 700;
+    font-size: 30px; 
+}
+
+.Rectangle-conteiner-content-2 {
+    margin-left: 330px;
+    margin-right: 330px;
+    font-weight: 400;
+    font-size: 16px; 
+    padding-bottom: 100px;
+}
+
+.Rectangle-img {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Rectangle-img-link {
+    text-decoration: none;
+    color: var(--white-color);
 }
