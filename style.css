@@ -285,6 +285,7 @@ body {
     text-align: center;
     margin: 0px;
     width: 100%;
+    height: 900px;
     z-index: 1;
 }
 
@@ -321,4 +322,55 @@ body {
 .Rectangle-img-link {
     text-decoration: none;
     color: var(--white-color);
+}
+
+.recent-projects {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white-color);
+    margin-top: 138px;
+    display: flex;
+    text-align: center;
+}
+
+.recent-projects-conteiner {
+    padding-bottom: 105px;
+}
+
+.rp-content-1 {
+    font-weight: 700;
+    font-size: 30px; 
+    padding: 15px;
+}
+
+.rp-content-2 {
+    font-weight: 400;
+    font-size: 14px; 
+    padding-bottom: 71px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.rp-conteiner-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-bottom: 72px;
+}
+
+.recent-projects-buton {
+    font-weight: 500;
+    font-size: 20px; 
+    color: var(--white-color);
+    background-color: var(--braun-color);
+    text-decoration: none; 
+    padding: 15px 30px;
+    border-radius: 10px;
+} 
+
+.recent-projects-buton:hover {
+    border-bottom: 0;
+    background-color: var(--white-transparent);
 }
