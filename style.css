@@ -8,6 +8,7 @@
     --braun-color: #17130e;
     --white-transparent: #ffffff11;
     --shode-black: #000000a8;
+    --dark-color: #1C140F;
 }
 
 body {
@@ -373,4 +374,82 @@ body {
 .recent-projects-buton:hover {
     border-bottom: 0;
     background-color: var(--white-transparent);
+}
+
+.Stay-in-the-loop-conteiner {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white-color);
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-bottom: 163px;
+}
+
+.sitl-info-1 {
+    font-weight: 600;
+    font-size: 30px; 
+}
+
+.sitl-info-2 {
+    font-weight: 400;
+    font-size: 14px; 
+    padding-top: 32px;
+    padding-bottom: 74px;
+    margin-right: 60%;
+}
+
+.sitl-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-color);
+    border-radius: 15px;
+}
+
+.sitl-form-info {
+    margin-left: 56px;
+}
+ 
+.sitl-form-text-1 {
+    font-weight: 500;
+    font-size: 30px; 
+}
+
+.sitl-form-text-2 {
+    font-weight: 400;
+    font-size: 17px; 
+}
+
+.sitl-form-action {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+    height: 48px;
+    width: 385px;  
+}
+
+.sitl-form-action-input {
+    width: 205%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 60%;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+}
+
+.sitl-form-action-buton {
+    position: absolute;
+    transform: translateY(-115%);
+    left: 71%;
+    padding: 9px 24px;
+    border-radius: 8px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.sitl-form-action-buton:hover {
+    border-bottom: 0;
+    background-color: var(--orange-hover-color);
 }
