@@ -453,3 +453,118 @@ body {
     border-bottom: 0;
     background-color: var(--orange-hover-color);
 }
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white-color);
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.footer-conteiner {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px 25px;
+    margin-bottom: 9px;
+    width: 30%;;
+}
+
+.footer-info-text-logo {
+    font-weight: 800;
+    font-size: 24px; 
+}
+
+.footer-info-text {
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 7px;
+    width: 15%;
+}
+
+.footer-links-header {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px; 
+    color: var(--white-color);
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 11px;
+    width: 22%;
+}
+
+.footer-contact-info-size {
+    font-weight: 400;
+    font-size: 17px; 
+}
+
+.footer-contact-info {
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.footer-links-social-network {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    gap: 16px;
+    margin-left: 100px;
+}
+
+.footer-links-social-network-link {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-color: var(--white-color);
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    position: relative; 
+}
+
+.footer-links-social-network-img {
+    position: absolute;
+    transform: translateY(76%);
+    left: 34%;
+}
+
+.footer-links-social-network-instogram {
+    position: absolute;
+    transform: translateY(50%);
+    left: 18%;
+}
+
+.footer-botton-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 13px; 
+    position: relative;
+    height: 9%;
+}
+
+.footer-botton-text::after {
+    content: "";
+    display: block;
+    width: 118%;
+    height: 2px;
+    margin: -30px;
+    background-color: var(--white-color);
+    color: var(--white-color);
+    position: absolute;
+}
