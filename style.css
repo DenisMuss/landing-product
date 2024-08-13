@@ -277,10 +277,9 @@ body {
 .Rectangle-conteiner {
     font-family: 'Poppins', sans-serif;
     color: var(--white-color);
-    background-image: url('db4d123c4b390965f684f22d4bf13849 1.png');
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-image: url('img/db4d123c4b390965f684f22d4bf13849 1.png');
+    background-position: 100%;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -376,7 +375,12 @@ body {
     background-color: var(--white-transparent);
 }
 
-.Stay-in-the-loop-conteiner {
+.Stay-in-the-loop {
+    
+    background: linear-gradient(to bottom, #160f0247, #904b0129);
+}
+
+.sitl-conteiner {
     font-family: 'Poppins', sans-serif;
     color: var(--white-color);
     margin-left: 135px;
